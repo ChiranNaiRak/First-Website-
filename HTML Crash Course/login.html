@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./dashboard.html">Dashboard</a>
+    </nav>
+    <main>
+      <h1>Login</h1>
+      <form>
+        <!--removed action cs no function just yet, havent learned js-->
+        <div>
+          <label>Email</label>
+          <!--for attribute can be removed, we dont need it-->
+          <input type="email" required />
+          <!--self closing tag but for best practise you should always close tags-->
+        </div>
+        <hr />
+        <div>
+          <label>Password</label>
+          <input type="password" required />
+        </div>
+        <!--only use when needed cs if not itll slow down the website-->
+        <hr />
+        <div>
+          <label>Confirm <span>Password</span></label>
+          <!--span tag is used so that if we wanted to make the password text bold or italic or colored or even all of it, we can just target the span instead of the text password since there's other password texts too-->
+          <input type="password" required />
+        </div>
+        <hr />
+        <div>
+          <label>Age</label>
+          <input type="number" required />
+        </div>
+        <hr />
+        <div>
+          <label>Date</label>
+          <input type="date" required />
+        </div>
+        <hr />
+        <div>
+          <label>Message</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <hr />
+        <button>Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
